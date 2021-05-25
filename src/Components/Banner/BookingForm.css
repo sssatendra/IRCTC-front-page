@@ -1,0 +1,73 @@
+.bookingFrom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.formtop{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+.formMain > h2{
+    color: #213D77;
+    background-color: white;
+}
+.formtop > h4{
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.formtop > h4:hover{ 
+    color: white;
+    background-color: #213D77 ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container >.container__left{
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 40vh;
+}
+
+.container >.container__right{
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 40vh;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn__primary{
+    margin-left: 80px !important; 
+    margin-top: 25px !important ;
+    outline: none;
+    cursor: pointer;
+}
